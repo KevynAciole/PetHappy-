@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+
+body{
+  font-family: 'Georama', sans-serif;
+  background-image: url(img/bg.png);
+  background-repeat: no-repeat;
+
+}
+.cabeçalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px;
+  width: 100%;
+  height: 86px;
+  background: #9E8B36;
+  justify-content: space-around;
+  position: fixed;
+  top:0%;
+
+
+}
+.cabeçalho-menu{
+   display: flex;
+   gap: 28px;
+}
+.cabeçalho-menu-items{
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  text-decoration: none;
+}
+.titulo{
+  padding-left: 132px;
+  padding-top: 10rem;
+  font-size: 46px;
+  color: #000000;
+}
+.produtos{
+  padding-left: 132px;
+  padding-bottom: 2rem;
+  padding-top: 44px;
+  font-size: 22px;
+  color: #000000;
+}
+.sobre-nos{
+  padding-left: 132px;
+  padding-top: 4rem;
+  font-size: 22px;
+  color: #000000;
+}
+.text-sobre-nos{
+  display: flex;
+  margin-left: 130px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 17px;
+  color:#000000;
+  font-weight: 300;
+  text-align: justify;
+  width: 550px;
+  text-shadow: 0.2em 0.2em 0.3em #d1cece
+}
+.equipe{
+  padding-left: 132px;
+  padding-top: 44px;
+  font-size: 22px;
+  color: #000000;
+}
+.img-equipe{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1rem;
+  gap: 20px;
+  padding-left: 130px;
+}
+.rodape{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: #9E8B36;
+  font-size: 18px;
+}
+.rd{
+  padding-bottom: 2px;
+}
+.titulo-loja{
+  display: flex;
+  font-size: 34px;
+  margin-top: 12rem;
+  margin-bottom: 35px;
+  justify-content: center;
+}
+.image-pa img{
+  width: 300px;
+  height: 270px;
+  border-radius: 4px;
+}
+.titulo-adocao{
+    display: flex;
+    justify-content: center;
+    font-size: 34px;
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+}
+.adocao{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.adocao1{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.body-agenda{
+  background-image: url(img/bg_agenda.png);
+  background-repeat: no-repeat;
+}
+.titulo-agendamento{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  font-size: 40px;
+}
+.agendar{
+  display: flex;
+  justify-content: center;
+}
+.name,.email,.tel,.service,.data,.time,.submit,.message,.assunto{
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.cont{
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  margin-bottom: 3rem;
+  font-size: 40px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=tel], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=time], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color:#9E8B36;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+input[type=message] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  box-sizing: border-box;
+}
+input[type=submit]:hover {
+  background-color: #9E8B36;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+textarea{
+  border:1px solid #ccc;
+  width: 300px;
+  height: 44px;
+  border-radius: 4px;
+}
+.mensagem1,.mensagem{
+  background-color: #f2f2f2;
+  padding-left: 20px;
+
+}
+.row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 116px;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 16px;
+  width: 260px;
+  transition: all 0.3s ease-out;
+  background: #d9d9d9d5;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card p {
+  padding-top: 6px;
+  color:#889e36;
+  font-size: 18px;
+}
+.card h3 {
+  font-size: medium; 
+}
+
+.image {
+  padding-left: 18%;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.card {
+  border-left: 3px solid #9E8B36;
+}
+.cargo{
+  display: flex;
+  justify-content: center;
+  background-color: #9E8B36;
+  border-radius: 5px;
+  padding: 3px;
+}
+.box{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.equi img{
+  border-radius: 5px;
+}
+.botao-adocao{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+
+}
+.botao-adocao button{
+  width: 400px;
+  height: 45px;
+  background-color: #9E8B36;
+  border: #889e36;
+  border-radius: 10px;
+  color: #000000;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Agendamento</title>
+    <link rel="stylesheet" type="text/css" href="Style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="Style/style.css" />
+    <link rel="icon" type="image/x-icon" href="Style/img/logo.png">
+</head>
+
+<body class="body-agenda">
+    <header class="cabeçalho">
+        <a href="index.html">
+            <img class="imagem-cabeçalho" src="Style/img/logo.png" alt="">
+        </a>
+        <nav class="cabeçalho-menu">
+            <a class="cabeçalho-menu-items" href="index.html">Home</a>
+            <a class="cabeçalho-menu-items" href="loja.html">Loja</a>
+            <a class="cabeçalho-menu-items" href="agendamento.html">Agendamento</a>
+            <a class="cabeçalho-menu-items" href="contato.html">Contato</a>
+            <a class="cabeçalho-menu-items" href="adocao.html">Adoção</a>
+        </nav>
+    </header>
+
+    <h1 class="titulo-agendamento">Agendamento</h1>
+    <main class="agendar">
+        <div class="container">
+            <form>
+                <div class="name">
+                    <label for="name">Nome:</label>
+                    <input type="text" placeholder="Digite seu nome" name="name" required>
+                </div>
+                <div class="email">
+                    <label for="email">E-mail:</label>
+                    <input type="email" placeholder="Digite seu melhor email" name="email" required>
+                </div>
+                <div class="tel">
+                    <label for="phone">Telefone:</label>
+                    <input type="tel" placeholder="Digite seu telefone" name="phone" required>
+                </div>
+                <div class="service">
+                    <label for="service">Serviço:</label>
+                    <select id="service" name="service" required>
+                        <option value="">Selecione um serviço</option>
+                        <option value="servico1">Banho</option>
+                        <option value="servico2">Tosa</option>
+                        <option value="servico3">Banho e tosa</option>
+                    </select>
+                </div>
+                <div class="data">
+                    <label for="date">Data:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="time">
+                    <label for="time">Horário:</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Agendar">
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+        <footer class="rodape">
+            <h4 class="rd">Contato: </h4>
+            <p class="rd">Email: petshappy@contato.com</p>
+            <p class="rd">Telefone: (11) 1234-5678</p>
+            <h4 class="rd">@Petshappy</h4>
+        </footer>
+
+</body>
+
+</html>
